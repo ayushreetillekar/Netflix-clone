@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     /* overflow-x: hidden; */
+}
+
+body {
+    background-color: black;
+}
+
+.background {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(images/background\ image.png);
+    background-repeat: no-repeat;
+    /* overflow-x: hidden; */
+    filter: brightness(25%);
+}
+
+.clone img{
+    position: relative;
+    height: 150px;
+    bottom: 105vh;
+    left: 9vw;
+}
+.topbut button {
+    position: relative;
+    left: 75vw;
+    bottom: 120vh;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    appearance: 0;
+}
+.topbut :nth-child(1) {
+    width: 9%;
+    color: white;
+    background-color: #f5f0f000;
+    border: 3px solid black;
+}
+.topbut :nth-child(2) {
+    background-color: red;
+    color: white;
+    width: 7%;
+    border: 2px solid rgb(233, 6, 6);
+}
+.heading h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom: 105vh;
+    font-size: 75px;
+    font-family: sans-serif;
+    margin: -5px;
+}
+.heading h3 {
+    color: rgb(224, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom: 103vh;
+    font-family: sans-serif;
+}
+
+.heading p {
+    color: rgb(224, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom: 98vh;
+    font-family: sans-serif;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom: 96vh;
+}
+
+.login input {
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    width: 24vw;
+    margin: 3px;
+    background-color: #0000;
+}
+.login input::placeholder {
+    color: white;
+}
+
+.login button {
+    padding: 8.5px;
+    width: 14vw;
+    margin: 5px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    cursor: pointer;
+}
+.trend {
+    color: white;
+    position: relative;
+    bottom: 80vh;
+    left: 10vw;
+    font-family: sans-serif;
+}
+
+.picture img {
+    height: 40vh;
+    width: 14vw;
+    margin: 10px;
+    position: relative;
+    bottom: 80vh;
+    left: 9vw;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+.picture img:hover {
+    transform: scale(1.1);
+}
+
+.picture button {
+    height: 20vh;
+    width: 2vw;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100vh;
+    left: 9vw;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgba(64, 62, 185, 0.233);
+    border: 2px rgba(99, 97, 204, 0.233);
+    cursor: pointer;
+}
+
+.more h2 {
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 80vh;
+    left: 10vw;
+}
+
+.boxes {
+    display: flex;
+     flex-wrap: wrap;
+     /* justify-content: center; */
+    position: relative;
+    bottom: 79.5vh;
+    left: 10vw;
+}
+.boxes .box {
+    height: 45vh;
+    width: 18vw;
+    background-color: rgb(19, 1, 34);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 7px 9px 15px rgb(52 2 99 / 60%);
+}
+.boxes h2,
+p {
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.boxes img {
+    height: 50px;
+    width: 60px;
+    border-radius: 20px;
+    position: relative;
+    left: 13vw;
+}
+
+.boxes .box1 img {
+    position: relative;
+    top: 75px;
+}
+
+.boxes .box2 img {
+    position: relative;
+    top: 35px;
+}
+
+.boxes .box3 img {
+    position: relative;
+    top: 90px;
+}
+
+.boxes .box4 img {
+    position: relative;
+    top: 45px;
+}
+
+.que h2 {
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 70vh;
+    left: 10vw;
+}
+
+.ans h2 {
+    background-color: rgb(59, 57, 57);
+    color: white;
+    margin: 10px;
+    width: 75vw;
+    height: 10vh;
+    padding-top: 20px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 69vh;
+    left: 9vw;
+}
+.para p {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 60vh;
+}
+
+.loginn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom: 60vh;
+}
+
+.loginn input {
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    width: 30vw;
+    margin: 3px;
+    background-color: #0000;
+}
+
+.loginn input::placeholder {
+    color: white;
+}
+
+.loginn button {
+    padding: 8.5px;
+    width: 14vw;
+    margin: 5px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    cursor: pointer;
+}
